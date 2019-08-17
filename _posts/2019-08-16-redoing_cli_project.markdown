@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Redoing Cli Project "
-date:       2019-08-17 02:35:02 +0000
+date:       2019-08-16 22:35:03 -0400
 permalink:  redoing_cli_project
 ---
 
