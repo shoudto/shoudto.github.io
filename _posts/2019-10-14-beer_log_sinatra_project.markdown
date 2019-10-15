@@ -13,4 +13,17 @@ permalink:  beer_log_sinatra_project
 I further want to enhance my css skills as well as my html I love the aspect of design a website and make look amazing. The backend is fascinating as well where I am able t build encryption password for the user and instead of going to a website and signing in I was able to create a login and singup for a user myself. This open my eyes to the possibilites of what web development can do for me and the things I can create!
 
 						
-
+```
+class CreateBlogs < ActiveRecord::Migration
+  def change
+    create_table :blogs do |t|
+      t.string :title
+      t.string :brewery
+      t.string :name
+      t.string :body
+      t.integer :user_id
+      t.timestamps
+    end
+  end
+end
+```
